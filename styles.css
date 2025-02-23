@@ -184,3 +184,17 @@ ul li a:hover {
     padding-bottom: 0px;
     margin-left: 240px;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  img:hover {
+    transform: scale(1.025);
+  }
+  
